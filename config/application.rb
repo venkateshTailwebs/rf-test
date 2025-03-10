@@ -16,7 +16,8 @@ module RfTest
     # Common ones are `templates`, `generators`, or `middleware`, for example.
     config.autoload_lib(ignore: %w(assets tasks))
 
-    config.hosts.all
+    # Configure the host
+    config.hosts = nil
 
     # Configuration for the application, engines, and railties goes here.
     #
